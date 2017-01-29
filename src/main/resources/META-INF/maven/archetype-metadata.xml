@@ -3,9 +3,6 @@
                       xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
                       name="fitnesse-project" partial="false">
     <requiredProperties>
-        <requiredProperty key="package">
-            <defaultValue>${artifactId}</defaultValue>
-        </requiredProperty>
         <requiredProperty key="version">
             <defaultValue>1.0.0-SNAPSHOT</defaultValue>
         </requiredProperty>
