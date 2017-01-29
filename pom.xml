@@ -5,6 +5,7 @@
     <artifactId>fitnesse-project</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <name>Archetype - FitNesse project based on hsac-fitnesse-fixtures</name>
+    <description>Project to create a Maven archetype that can be used to generate a FitNesse project based on hsac-fitnesse-fixtures</description>
     <url>https://github.com/fhoeben/fitnesse-project-archetype</url>
 
     <packaging>maven-archetype</packaging>
