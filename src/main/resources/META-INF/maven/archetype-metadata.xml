@@ -13,6 +13,7 @@
             <directory/>
             <includes>
                 <include>.gitignore</include>
+                <include>README.md</include>
                 <include>src/assembly/**</include>
                 <include>wiki/**</include>
             </includes>
