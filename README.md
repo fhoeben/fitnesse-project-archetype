@@ -1,4 +1,5 @@
 # FitNesse using hsac-fitnesse-fixtures project archetype
+[![Maven Central](https://img.shields.io/maven-central/v/nl.hsac/fitnesse-project.svg?maxAge=86400)](https://mvnrepository.com/artifact/nl.hsac/fitnesse-project)
 
 This project contains the code to create a Maven archetype that can be used to generate a [FitNesse](http://fitnesse.org) 
 project based on [hsac-fitnesse-fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures).
