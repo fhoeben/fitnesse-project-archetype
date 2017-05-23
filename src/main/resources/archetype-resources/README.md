@@ -1,7 +1,8 @@
 This testing project uses the FitNesse baseline provided by [hsac-fitnesse-fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures).
 It offers a web environment (wiki) to define and run tests. 
 
-## Baseline Features
+#set( $H = '##' )
+$H Baseline Features
 The hsac-fitnesse-fixtures aim to assist in testing (SOAP) web services and web applications (using Selenium) minimizing the amount of (custom) Java code needed to define tests.
 
 The baseline FitNesse installation offers the following features:
@@ -18,13 +19,17 @@ The baseline FitNesse installation offers the following features:
 More details can be found on its [GitHub Wiki](https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki), or [in the local
 wiki installation](http://localhost:9090/HsacExamples) (see instructions below on how to start in).
 
-## Running Locally
+$H Running Locally
 To start the wiki locally execute: `mvn clean compile exec:exec`, it can then be accessed at [http://localhost:9090/](http://localhost:9090/).
 
 More details on the features of hsac-fitnesse-fixtures, and example tests, can then be accessed at 
 [http://localhost:9090/HsacExamples](http://localhost:9090/HsacExamples).
 
-## Upgrading
+An empty ('template' or 'boilerplate') test suite, to give you a flying start creating your own test suite, can be found at 
+[http://localhost:9090/${testSuiteName}](http://localhost:9090/${testSuiteName}). All basic setup has been taken care of, 
+so you can start defining your own tests in this suite immediately. 
+
+$H Upgrading
 
 To upgrade to newer version of the hsac-fitnesse-fixtures project:
 

@@ -6,6 +6,9 @@
         <requiredProperty key="version">
             <defaultValue>1.0.0-SNAPSHOT</defaultValue>
         </requiredProperty>
+        <requiredProperty key="testSuiteName" validationRegex="[A-Z][a-z]+.*[A-Z][a-z].*">
+            <defaultValue>MyTests</defaultValue>
+        </requiredProperty>
     </requiredProperties>
 
     <fileSets>
@@ -13,8 +16,13 @@
             <directory/>
             <includes>
                 <include>.gitignore</include>
-                <include>README.md</include>
                 <include>src/assembly/**</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory/>
+            <includes>
+                <include>README.md</include>
                 <include>wiki/**</include>
             </includes>
         </fileSet>
