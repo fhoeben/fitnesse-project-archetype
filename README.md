@@ -18,9 +18,12 @@ To use the archetype from the command line:
    * `artifactId`: value of `artifactId` element in the generated project's `pom.xml`, and the name of the directory the project is created in.
    * `version`: value of `version` element in the generated project's `pom.xml`.
    * `package`: which java package (i.e. namespace) to use for the unit test to run tests on build server, or debug fixtures.
+   * `testSuiteName`: name for the (boilerplate) test suite to create, where you can define your own tests immediately. (Must be a valid [wiki-word](http://fitnesse.org/FitNesse.FullReferenceGuide.UserGuide.FitNesseWiki.WikiWord).)
 * Confirm the values you supplied by pressing 'enter', or entering `Y`.
 
 The archetype will create a directory named after the 'artifactId' you supplied, which will contain the generated project.
 
 To start using the project go to the directory created and enter `mvn clean compile exec:exec`, this will start the FitNesse
-wiki at [http://localhost:9090/](http://localhost:9090/).
+wiki at [http://localhost:9090/](http://localhost:9090/). If you append 'testSuiteName' (i.e. the value you supplied when 
+prompted by Maven for that property during archetype creation) to the URL you'll go straight to 
+the suite where you can start defining your own tests.
