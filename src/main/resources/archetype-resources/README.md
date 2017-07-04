@@ -45,7 +45,7 @@ Upgrade FitNesse version used:
 * upgrade `fitnesse.version` property in `pom.xml`
 * start as normal
 
-$H Installation from scratch
+$H Setting Up a Development Environment
 
-The guide to do an installation from scratch can be found here:
-https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/Installation-guide
+A description on how to set up a development environment to work on a project like this one can be found in the
+[hsac-fitnesse-fixtures' wiki](https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/Installation-guide).
