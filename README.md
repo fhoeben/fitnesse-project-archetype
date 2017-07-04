@@ -23,7 +23,13 @@ To use the archetype from the command line:
 
 The archetype will create a directory named after the 'artifactId' you supplied, which will contain the generated project.
 
+## Getting Started with the Generated Project
+
 To start using the project go to the directory created and enter `mvn clean compile exec:exec`, this will start the FitNesse
 wiki at [http://localhost:9090/](http://localhost:9090/). If you append 'testSuiteName' (i.e. the value you supplied when 
 prompted by Maven for that property during archetype creation) to the URL you'll go straight to 
 the suite where you can start defining your own tests.
+
+A more detailed description on how to set up a development environment to work on a project generated from this archetype
+(i.e. [sample-fitnesse-project](https://github.com/fhoeben/sample-fitnesse-project)) can be found in the
+[hsac-fitnesse-fixtures' wiki](https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/Installation-guide).
