@@ -56,6 +56,7 @@
             <outputDirectory></outputDirectory>
             <includes>
                 <include>FitNesseRoot/files/httpPostExamples/**</include>
+                <include>FitNesseRoot/files/galenExamples/**</include>
             </includes>
         </fileSet>
     </fileSets>
