@@ -12,11 +12,11 @@ The archetype will create the boilerplate so the use can focus on writing their 
 To use the archetype from the command line:
 
  * Go to the directory under which you want to create the project.
- * Have the archetype create the project: `mvn archetype:generate -DarchetypeGroupId=nl.hsac -DarchetypeArtifactId=fitnesse-project`
+ * (Maven should find the latest version of the archetype automatically, but it doesn't always.) Check the latest version number on the [releases page](https://github.com/fhoeben/fitnesse-project-archetype/releases/latest), and use this instead of `<latest-version>` in the next command.
+ * Have the archetype create the project: `mvn archetype:generate -DarchetypeGroupId=nl.hsac -DarchetypeArtifactId=fitnesse-project -DarchetypeVersion=<latest-version>`
  * Maven will prompt you for:
    * `groupId`: value of `groupId` element in the generated project's `pom.xml`.
    * `artifactId`: value of `artifactId` element in the generated project's `pom.xml`, and the name of the directory the project is created in.
-   * `version`: value of `version` element in the generated project's `pom.xml`.
    * `package`: which java package (i.e. namespace) to use for the unit test to run tests on build server, or debug fixtures.
    * `testSuiteName`: name for the (boilerplate) test suite to create, where you can define your own tests immediately. (Must be a valid [wiki-word](http://fitnesse.org/FitNesse.FullReferenceGuide.UserGuide.FitNesseWiki.WikiWord).)
 * Confirm the values you supplied by pressing 'enter', or entering `Y`.
