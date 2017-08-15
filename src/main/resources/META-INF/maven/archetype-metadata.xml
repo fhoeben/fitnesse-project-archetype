@@ -7,7 +7,6 @@
             <defaultValue>1.0.0-SNAPSHOT</defaultValue>
         </requiredProperty>
         <requiredProperty key="testSuiteName" validationRegex="[A-Z][a-z]+.*[A-Z][a-z].*">
-            <defaultValue>MyTests</defaultValue>
         </requiredProperty>
     </requiredProperties>
 
